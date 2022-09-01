@@ -1,0 +1,21 @@
+.strong-form button{
+  margin: 15px 0;
+  padding: 15px 0;
+  width: 100%;
+
+  background: $submit-button-background;
+  color: $submit-button-color;
+
+  border: none;
+  border-radius: 3px;
+  
+  font-weight: 700;
+  font-family: Roboto;
+  letter-spacing: 2px;
+  
+  cursor: pointer;
+
+  &:hover{
+    filter: brightness(110%);
+  }
+}

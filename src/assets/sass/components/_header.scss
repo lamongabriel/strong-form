@@ -1,0 +1,23 @@
+nav{
+  height: 50px;
+  width: 100%;
+  background-color: $menu-color;
+  padding: 0 10px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+
+  .menu-icon{
+    padding: 20px;
+    background-image: url("/public/images/icons/menu-outline.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    justify-self: flex-end;
+    cursor: pointer;
+  }
+
+  .menu-icon.closed{
+    background-image: url("/public/images/icons/close-outline.svg");
+  }
+}

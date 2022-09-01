@@ -1,0 +1,29 @@
+// ------- RESET CSS -------
+@import "./base/_reset.scss";
+
+// ------- COLORS ------- 
+@import "./colors/_colors.scss";
+
+// ------- COMPONENTS ------- 
+
+@import "./components/_header.scss";
+
+@import "./components/_form.scss";
+
+@import "./components/_form_input.scss";
+
+@import "./components/_submit_button.scss";
+
+// ------- FONTS ------- 
+
+@font-face {
+  font-family: Roboto;
+  src: url("/public/fonts/Roboto-Regular.ttf");
+}
+
+body{
+  overflow-x: hidden;
+  background: $background-color;
+  height: 100%;
+  font-family: Roboto;
+}

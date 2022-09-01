@@ -1,0 +1,46 @@
+form.strong-form{
+  width: 100%;
+  max-width: 450px;
+  min-height: 100%;
+
+  background-color: $form-background-color;
+  padding: 50px;
+  transition: 0.2s;
+
+  position: absolute;
+  transform: translateX(110%);
+  right: 0;
+
+  .strong-form-error{
+    color: $error-message;
+  }
+  
+  .input50{
+    display: flex;
+    gap: 10px;
+  }
+
+  .button-check-cep{
+    position: absolute;
+    display: inline;
+    padding: 5px;
+    width: auto;
+  }
+}
+
+form.strong-form.opened{
+  transform: translateX(0px);
+}
+
+@media (max-width: 600px){
+  form.strong-form{
+    .input50{
+      display: block;
+    }
+  }
+
+  form.strong-form{
+    padding: 20px;
+  }
+}
+

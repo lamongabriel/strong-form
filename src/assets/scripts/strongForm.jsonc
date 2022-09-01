@@ -1,0 +1,14 @@
+//Strong Form V1.0.0
+
+{
+  "type": [
+    "required",
+    "cep",
+    "birthday",
+    "sex",
+    "passconfirmation",
+    "email"
+  ],
+  "maxlength": "xx",
+  "minlength": "xx"
+}
